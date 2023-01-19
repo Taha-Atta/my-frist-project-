@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --Very-dark-blue-1: hsl(217, 54%, 11%);  /* (main BG)*/
+    --Very-dark-blue-2 : hsl(216, 50%, 16%);  /* (card BG)*/
+    --Very-dark-blue-3:hsl(215, 32%, 27%);   /* (line) */
+    --White: hsl(0, 0%, 100%);
+    --Soft-blue : hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color:var(--Very-dark-blue-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+.papa{
+background-color: var(--Very-dark-blue-1);
+width: 320px;
+height: 570px;
+padding: 20px;
+border-radius: 20px;
+margin: 30px auto;
+}
+.contanier{
+background-color: var(--Very-dark-blue-2);
+width: 300px;
+height: 550px;
+padding: 20px;
+border-radius: 20px;
+margin: 30px auto;
+
+}  
+.contanier img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.contanier .text {
+    padding: 10px;
+    margin-top: 10px;
+}
+.contanier .text h2 {
+    color: var(--White);
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.contanier .text p{
+    font-size: 18px;
+    color:var(--Soft-blue);
+}
+.contanier .cont {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid var(--Soft-blue);
+    margin-bottom: 10px;
+}
+.contanier .cont .one {
+color: var(--Cyan);
+}
+.contanier .cont .two {
+color: var(--Soft-blue);
+}
+.contanier .box {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.contanier .box img {
+    width: 30px;
+    border: 1px solid white;
+    margin-right: 15px;
+}
+.contanier .box p {
+    color:var(--Soft-blue);
+}
+.contanier .box  span {
+    color:var(--White);
+}
